@@ -8,7 +8,7 @@ $(document).ready(() => {
     })
 
     .done((res)=> {
-        console.log
+        
     })
 
     })
