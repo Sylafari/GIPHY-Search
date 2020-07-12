@@ -17,6 +17,7 @@ function getData(){
         
         for (i in giffs)
         {
+            $(".results").addClass("flex-container")
             $(".results").append("<img src = '" + giffs[i].images.original.url+"'style='height:350px; width:350px;'/>")
         }
 
