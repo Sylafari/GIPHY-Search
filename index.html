@@ -1,56 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<style>
-#outputArea {
-    display: flex;
-    flex-wrap: wrap;
-}
-.box {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-img {
-    width:100px
-    height:auto;
-}
-</style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "main.js"></script>
+    <script>
+    
+    </script>
+
 </head>
-<body>
-
-<script>
-
-$(document).ready( function() {
-    $("button").click( function() {
-        var fns = [ { name: "starwars01.jpg"},
-                    { name: "starwars02.jpg"},
-                    { name: "starwars03.jpg"},
-                    { name: "starwars04.jpg"},  
-                    { name: "starwars05.jpg"},
-                    { name: "starwars06.jpg"},
-                    { name: "starwars07.jpg"},
-                    { name: "starwars08.jpg"},
-                    { name: "starwars09.jpg"},
-                    { name: "starwars10.jpg"},
-                    { name: "starwars11.jpg"},
-                    { name: "starwars12.jpg"}];
-        var str = "";
-        for (var i=0; i<fns.length; i++) {
-            str += "<div class='box'><img src='images/" + fns[i].name + "'/></div>\n";
-        }
-        $("#outputArea").html(str);
-    });
-});
-</script>
-<div class="content">
-    <div><button type="button">Click Me</button></div>
-    <div id="outputArea"></div>
+<div class="title-search-bar">
+    <h1> Giphy API Search</h1>
+    <div id="buttons"></div>
+    <div class="search-bar">
+        <input type="text" name="query" id="user-search" />
+        <input id="submit" type="button" value="Submit" class="btn  btn-sm btn-success" />
+    </div>
 </div>
-</body>
+
+</div>
+<div id="results"></div>
+
+
+
 </html>
-
-
-<input id="search" type = "search"/>
-<button id="submit">Submit</button>
