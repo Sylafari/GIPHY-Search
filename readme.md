@@ -6,3 +6,10 @@ Ideas for Future Improvement:
 1. Resize the images aspect ratio dynamically on the page  
 2. A more engaging design such as possibly making the pictures fade in on search
 3. Adding more functionality for the desktop versus when scaling down to mobile
+
+Requirements still needed: 
+1. Multiple links in Menu
+2. Google Font I've never used before
+3. Flex for the site name and nav bar
+4. Flex to ensure input field and submit button are side by side
+5. Mobile and Desktop @media queries
