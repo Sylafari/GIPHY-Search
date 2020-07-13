@@ -7,5 +7,3 @@ Ideas for Future Improvement:
 2. A more engaging design such as possibly making the pictures fade in on search
 3. Adding more functionality for the desktop versus when scaling down to mobile
 
-Requirements still needed: 
-1. Mobile and Desktop @media queries
