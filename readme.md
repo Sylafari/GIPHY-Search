@@ -9,7 +9,6 @@ Ideas for Future Improvement:
 
 Requirements still needed: 
 1. Multiple links in Menu
-2. Google Font I've never used before
-3. Flex for the site name and nav bar
-4. Flex to ensure input field and submit button are side by side
-5. Mobile and Desktop @media queries
+2. Flex for the site name and nav bar
+3. Flex to ensure input field and submit button are side by side
+4. Mobile and Desktop @media queries
