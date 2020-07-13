@@ -8,7 +8,4 @@ Ideas for Future Improvement:
 3. Adding more functionality for the desktop versus when scaling down to mobile
 
 Requirements still needed: 
-1. Multiple links in Menu
-2. Flex for the site name and nav bar
-3. Flex to ensure input field and submit button are side by side
-4. Mobile and Desktop @media queries
+1. Mobile and Desktop @media queries
